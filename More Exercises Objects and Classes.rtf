@@ -1,0 +1,146 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Consolas;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red100\green45\blue8;\red0\green0\blue255;\red5\green99\blue193;\red124\green56\blue10;\red143\green64\blue11;\red0\green255\blue255;\red0\green0\blue0;\red217\green217\blue217;\red255\green255\blue255;\red0\green0\blue10;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\keep\keepn\sb200\sa40\sl276\slmult1\qc\cf1\b\f0\fs40\lang2057 More Exercises: Objects and Classes\par
+
+\pard\sb80\sa120\sl276\slmult1\cf0\b0\fs22 Problems for exercise and homework for the {\cf2\ul{\field{\*\fldinst{HYPERLINK "https://softuni.bg/trainings/3606/programming-fundamentals-with-csharp-january-2022"}}{\fldrslt{"C#  Fundamentals" course @ SoftUni}}}}\cf3\ul\f0\fs22\line\cf0\ulnone You can check your solutions in {\cf2\ul{\field{\*\fldinst{HYPERLINK "https://judge.softuni.org/Contests/1325/Objects-and-Classes-More-Exercise"}}{\fldrslt{Judge}}}}\f0\fs22\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li360\sb120\sa80\sl276\slmult1\qj\tx1843\cf4\b\fs36 Company Roster\par
+
+\pard\sb80\sa120\sl276\slmult1\qj\cf0\b0\fs22 Define a class \b Employee\b0  that holds the following information: a \b name, a salary, \b0 and a\b  department\b0 . \par
+Your task is to write a program, which takes \b N\b0  lines of employees from the console, calculates the department with the highest average salary, and prints for each employee in that department his \b name and salary \b0\f1\endash\f0  \b sorted by salary in descending order\b0 . The \b salary\b0  should be rounded to \b two digits\b0  after the decimal separator.\par
+
+\pard\keep\keepn\sa40\sl276\slmult1\qj\cf5\b\fs32 Examples\par
+\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3642\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx8167 
+\pard\intbl\sb80\sl240\slmult1\qj\cf0\fs22 Input\b0\cell\b Output\b0\cell\row\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3642\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx8167 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 4\par
+Peter 120.00 Development\par
+Tony 333.33 Marketing\par
+Jony 840.20 Development\par
+George 0.20 Nowhere\f0\cell\f2 Highest Average Salary: Development\par
+Jony 840.20\par
+Peter 120.00\f0\cell\row\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3642\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx8167 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 6\par
+Suny 496.37 Coding\par
+Johny 610.13 Sales\par
+Teo 609.99 Sales\par
+Vlady 0.02 BeerDrinking\par
+Andrey 700.00 Coding\par
+Popeye 13.3333 SpinachGroup\f0\cell\f2 Highest Average Salary: Sales\par
+Johny 610.13\par
+Teo 609.99\f0\cell\row 
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li360\sb120\sa80\sl276\slmult1\qj\tx1843\cf4\b\fs36 Oldest Family Member\par
+
+\pard\sb80\sa120\sl276\slmult1\qj\cf0\b0\fs22 Create two classes \f1\endash\f0  \b\f2 Family\f0  \b0 and\b  \f2 Person\b0\f0 . The \b\f2 Person\f0  \b0 class should have \b\f2 Name\f0  \b0 and \b\f2 Age\f0  \b0 properties. The \b\f2 Family\b0\f0  class should have a \b list of people\b0 , a method for adding members (\b\f2 void AddMember(Person member)\b0\f0 ), and a method, which returns the oldest family member\b  \b0 (\b\f2 Person GetOldestMember()\b0\f0 ). Write a program that reads the names and ages of \b N\b0  people and \b adds them to the family\b0 . Then \b print\b0  the \b name\b0  and \b age\b0  of the oldest member.\par
+
+\pard\keep\keepn\sb120\sa40\sl276\slmult1\qj\cf5\b\fs32 Examples\par
+\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx2070\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3208 
+\pard\intbl\sb80\sl240\slmult1\qj\cf0\fs22 Input\b0\cell\b Output\b0\cell\row\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx2070\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3208 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 3\par
+Peter 3\par
+George 4\par
+Annie 5\f0\cell\f2 Annie 5\f0\cell\row\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx2070\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3208 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 5\par
+Steve 10\par
+Christopher 15\par
+Annie 4\par
+John 35\par
+Maria 34\f0\cell\f2 John 35\f0\cell\row 
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li360\sb120\sa80\sl276\slmult1\qj\tx1843\cf4\b\fs36 Speed Racing\par
+
+\pard\sb80\sa120\sl276\slmult1\qj\cf0\b0\fs22 Your task is to implement a program that keeps track of cars and their fuel and supports methods for moving the cars. Define a class \b\f2 Car\b0\f0  that keeps a track of a car\rquote s \b\f2 model, fuel amount, fuel consumption\f0  \f2 per kilometer,\f0  \b0 and \b\f2 traveled distance\b0\f0 . A Car\rquote s model is \b unique\b0  - there will never be 2 cars with the same model.\par
+ On the first line of the input, you will receive a number \b N\b0  \f1\endash\f0  the number of cars you need to track. On each of the next \b N\b0  lines you will receive information about cars in the following format \f2 "\b <Model> <FuelAmount> <FuelConsumptionFor1km>\b0 "\f0 . All \b cars start at 0 kilometers traveled\b0 .\par
+After the \b N\b0  lines, until the command \b\f2 "End"\b0\f0  is received, you will receive commands in the following format \b\f2 "Drive <CarModel> <amountOfKm>".\b0\f0  Implement a method in the \b\f2 Car\b0\f0  class to calculate whether or not a car can move that distance. If it can, the car\rquote s \b\f2 fuel amount\b0\f0  should be \b reduced\b0  by the amount of \b used\b0  \b fuel\b0  and its \b\f2 traveled\b0  \b distance\f0  \b0 should be increased by the number of the \b traveled kilometers\b0 . Otherwise, the car should not move (its fuel amount and the traveled distance should stay the same) and you should print on the console \f2 "\b Insufficient fuel for the drive\b0 ". \f0 After the \b\f2 "End"\b0\f0  command is received, print \b each car\b0 , its \b current \f2 fuel amount\b0\f0  and the\b  \f2 traveled\b0  \b distance\f0  \b0 in the format \b\f2 "<Model> <fuelAmount> <distanceTraveled>"\b0\f0 . Print the fuel amount rounded to \b two digits \b0 after the decimal separator.\par
+
+\pard\keep\keepn\sa40\sl276\slmult1\qj\cf5\b\fs32 Examples\par
+\trowd\trgaph84\trleft85\trrh244\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3521\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7562 
+\pard\intbl\sb80\sl240\slmult1\qj\cf0\fs22 Input\b0\cell\b Output\b0\cell\row\trowd\trgaph84\trleft85\trrh1415\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3521\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7562 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 2\par
+AudiA4 23 0.3\par
+BMW-M2 45 0.42\par
+Drive BMW-M2 56\par
+Drive AudiA4 5\par
+Drive AudiA4 13\par
+End\f0\cell\f2 AudiA4 17.60 18\par
+BMW-M2 21.48 56\f0\cell\row\trowd\trgaph84\trleft85\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx3521\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7562 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 3\par
+AudiA4 18 0.34\par
+BMW-M2 33 0.41\par
+Ferrari-488Spider 50 0.47\par
+Drive Ferrari-488Spider 97\par
+Drive Ferrari-488Spider 35\par
+Drive AudiA4 85\par
+Drive AudiA4 50\par
+End\f0\cell\f2 Insufficient fuel for the drive\par
+Insufficient fuel for the drive\par
+AudiA4 1.00 50\par
+BMW-M2 33.00 0\par
+Ferrari-488Spider 4.41 97\f0\cell\row 
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li360\sb120\sa80\sl276\slmult1\qj\tx1843\cf4\b\fs36 Raw Data\par
+
+\pard\sb80\sa120\sl276\slmult1\qj\cf0\b0\fs22 You are the owner of a courier company and you want to make a system for tracking your cars and their cargo. Define a class \b\f2 Car\b0\f0  that holds a piece of information about the \b\f2 model\f0 , \f2 engine,\f0  \b0 and\b  \f2 cargo\b0\f0 . The \b\f2 Engine\b0\f0  and \b\f2 Cargo\b0\f0  should\b  \b0 be\b  separate classes\b0 . Create a constructor that receives all of the information about the \b\f2 Car\b0\f0  and creates and initializes its inner components (engine and cargo).\par
+On the first line of input, you will receive a number \b N\b0  \f1\endash\f0  the number of cars you have. On each of the next \b N\b0  lines, you will receive the following information about a car: \b\f2 "<Model> <EngineSpeed> <EnginePower> <CargoWeight> <CargoType>"\b0 ,\f0  where the \b speed\b0 , \b power\b0  and \b weight\b0  are all \b integers. \par
+\b0 After the \b N\b0  lines, you will receive a single line with one of 2 commands: \b\f2 "fragile"\b0\f0  or \b\f2 "flamable"\b0\f0 . If the command is \b\f2 "fragile"\b0\f0  print all cars, whose \b\f2 Cargo Type\f0  is \f2 "fragile"\b0\f0  with \b\f2 cargo,\b0\f0  whose \b\f2 weight\b0\f0   \b < \f2 1000\b0\f0 . If the command is \b\f2 "flamable" \b0\f0 print all of the cars whose \b\f2 Cargo\f0  \f2 Type\f0  is \f2 "flamable"\b0\f0  and has \b\f2 Engine\f0  \f2 Power\f0  > \f2 250\b0\f0 . The cars should be printed in order of appearing in the input.\par
+
+\pard\keep\keepn\sa40\sl276\slmult1\qj\cf5\b\fs32 Examples\par
+\trowd\trgaph84\trleft108\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx4996\clvertalc\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7223 
+\pard\intbl\sb80\sl240\slmult1\qj\cf0\fs22 Input\b0\cell\b Output\b0\cell\row\trowd\trgaph84\trleft108\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx4996\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7223 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 2\par
+ChevroletAstro 200 180 1000 fragile\par
+Citroen2CV 190 165 900 fragile\par
+fragile\f0\cell\f2 Citroen2CV\f0\cell\row\trowd\trgaph84\trleft108\trrh1\trpaddl84\trpaddr84\trpaddfl3\trpaddfr3
+\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx4996\clcfpat7\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf7\clbrdrt\brdrw8\brdrs\brdrcf7\clbrdrr\brdrw8\brdrs\brdrcf7\clbrdrb\brdrw8\brdrs\brdrcf7 \cellx7223 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 4\par
+ChevroletExpress 215 255 1200 flamable\par
+ChevroletAstro 210 230 1000 flamable\par
+DaciaDokker 230 275 1400 flamable\par
+Citroen2CV 190 165 1200 fragile\par
+flamable\f0\cell\f2 ChevroletExpress\par
+DaciaDokker\f0\cell\row 
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent360{\pntxtb\'B7}}\keep\keepn\fi-360\li360\sb120\sa80\sl276\slmult1\qj\tx1843\cf4\b\fs36 Shopping Spree\par
+
+\pard\sb80\sa120\sl276\slmult1\qj\cf0\b0\fs22 Create two classes: \b\f2 class\b0  \b Person\b0\f0  and \b\f2 class\b0\f0  \b\f2 Product\b0\f0 . Each person should have a \b\f2 name\b0\f0 , \b\f2 money,\b0\f0  and a \b\f2 bag\b0\f0  \b of \f2 products\b0\f0 . Each product should have a \b\f2 name\b0\f0  and a \b\f2 cost\b0\f0 . \par
+Create a program, in which \b each command\b0  corresponds to a \b person buying a product\b0 . If the person can \b afford\b0  a product, \b add\b0  it to his bag. If a person \b doesn\rquote t have enough\b0  money, print an \b appropriate\b0  \b message\b0 : \b\f2 "\{Person\} can't afford \{Product\}"\b0\f0 .\par
+On the \b first two lines,\b0  you are given \b all people\b0  and \b all products\b0 . After all, purchases, print \b every person\b0  in the order of \b appearance\b0  and \b all products\b0  that he has \b bought,\b0  also in order of \b appearance\b0 . If \b nothing was bought\b0 , print the name of the person followed by \b\f2 "Nothing bought"\b0 .\f0  \par
+
+\pard\keep\keepn\sb120\sa40\sl276\slmult1\qj\cf5\b\fs32 Examples\par
+\trowd\trgaph40\trleft103\trrh244\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx2325\clcbpat8\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx5635 
+\pard\intbl\sb80\sl240\slmult1\qj\cf0\fs22 Input\b0\cell\b Output\b0\cell\row\trowd\trgaph40\trleft103\trrh28\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx2325\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx5635 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 Peter=11;George=4\par
+Bread=10;Milk=2;\par
+Peter Bread\par
+George Milk\par
+George Milk\par
+Peter Milk\par
+END\f0\cell\f2 Peter bought Bread\par
+George bought Milk\par
+George bought Milk\par
+Peter can't afford Milk\par
+Peter - Bread\par
+George - Milk, Milk\f0\cell\row\trowd\trgaph40\trleft103\trrh846\trpaddl40\trpaddr40\trpaddfl3\trpaddfr3
+\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx2325\clcbpat9\clbrdrl\brdrw8\brdrs\brdrcf10\clbrdrt\brdrw8\brdrs\brdrcf10\clbrdrr\brdrw8\brdrs\brdrcf10\clbrdrb\brdrw8\brdrs\brdrcf10 \cellx5635 
+\pard\intbl\sb80\sl240\slmult1\qj\f2 Maria=0\par
+Coffee=2\par
+Maria Coffee\par
+END\f0\cell\f2 Maria can't afford Coffee\par
+Maria - Nothing bought\f0\cell\row 
+\pard\sb80\sa120\sl276\slmult1\qj\b\f2\par
+
+\pard\sb80\sa120\sl276\slmult1\b0\f0\par
+
+\pard\sa200\sl276\slmult1\lang9\par
+}
+ 
