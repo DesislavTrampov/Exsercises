@@ -1,0 +1,2 @@
+# Exsercises
+Exsercises fundamentals course
