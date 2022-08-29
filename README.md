@@ -1,4 +1,4 @@
-Exsercises from Fundamentals Course C#
+Exsercises From Fundamentals Course C#
 
 More Exercises: Objects and Classes
 
