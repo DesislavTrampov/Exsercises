@@ -2,9 +2,11 @@ Exsercises From Fundamentals Course C#
 
 More Exercises: Objects and Classes
 
-Exsercise 1.Company Roster
+1.Company Roster
 
-Exsercise 2.Oldest Family Member
+2.Oldest Family Member
 
-Exsercise 3.Speed Racing
+3.Speed Racing
+
+4.Raw Data
 
