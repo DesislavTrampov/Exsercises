@@ -13,3 +13,7 @@ More Exercises: Objects and Classes
 5.Shopping Spree
 
 6. Renovators
+
+7.Battle_Maneger
+
+8.Arriving_in_Kathmandu
